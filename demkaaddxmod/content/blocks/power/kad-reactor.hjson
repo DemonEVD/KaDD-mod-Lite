@@ -1,0 +1,62 @@
+type: ConsumeGenerator
+size: 6
+health: 500
+
+powerProduction: 600
+itemCapacity: 100
+liquidCapacity: 100
+heatCapacity: 100
+
+displayEfficiency: false
+
+requirements: [
+  metaglass/1000
+  titanium/1500
+  surge-alloy/1300
+  plastanium/500
+  item-kad/100
+]
+
+consumes: {
+  liquids: [
+      cryofluid/0.2
+      slag/0.1
+      water/0.1
+      hydrogen/0.01
+  ]
+  items: [
+      item-kad/1
+      coal/3
+      pyratite/1
+  ]
+}
+
+itemDuration: 60
+
+category: power
+
+explosionRadius: 300
+explosionDamage: 2000
+warmupSpeed:0.01
+explosionPuddleLiquid: slag
+explosionPuddleRange: 160
+explosionPuddleAmount: 300
+explosionMinWarmup: 1000
+explosionShake: 100
+explosionShakeDuration: 10
+
+explodeOnFull: true
+outputLiquid: nitrogen/0.25
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawGlowRegion
+      color: ff4300
+    }
+  ]
+}
