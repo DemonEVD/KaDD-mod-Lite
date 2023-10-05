@@ -31,7 +31,7 @@ consumes: {
   ]
 }
 
-itemDuration: 60
+itemDuration: 900
 
 category: power
 
@@ -46,7 +46,7 @@ explosionShake: 100
 explosionShakeDuration: 10
 
 explodeOnFull: true
-outputLiquid: nitrogen/0.25
+outputLiquid: thermal-acid/2
 
 drawer: {
   type: DrawMulti

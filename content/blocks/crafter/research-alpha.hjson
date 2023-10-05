@@ -1,36 +1,39 @@
 type: GenericCrafter
 
-health: 900
-size: 2
+health: 400
+size: 3
 
 hasItems: true
 hasPower: true
 itemCapacity: 20
+liquidCapacity: 20
 
 requirements: [
-  metaglass/200
+  item-kad/30
   titanium/150
-  surge-alloy/50
+  plastanium/50
 ]
 
 consumes: {
-  power: 3
+  power: 1.5
   liquids: [
-      cryofluid/0.001
-      slag/0.001
+      thermal-acid/0.25
   ]
-} 
+  items: [
+      item-kad/1
+      plastanium/2
+      copper/1
+  ]
+}
 
 outputItems: [
-  scrap/10
-  item-kad/1
+  hard-drive-alpha/2
+  coal/0.2
 ]
 
-warmupSpeed: 0.1
+outputLiquid: hydrogen/0.1
 
-outputLiquid: hydrogen/0.03
-
-craftTime: 2500
+craftTime: 3600
 craftEffect: fire
 updateEffect: smeltsmoke
 category: crafting
@@ -43,7 +46,6 @@ drawer: {
     }
     {
       type: DrawArcSmelt
-      suffix: -glow
       color: ff6abda5
     }
   ]
