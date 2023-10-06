@@ -1,0 +1,9 @@
+cost: 2
+color: 7e0300
+charge: 200
+frames: 3
+transitionFrames: 3
+explosiveness: 0.1
+flammability: 0.3
+radioactivity: 0.3
+charge: 1

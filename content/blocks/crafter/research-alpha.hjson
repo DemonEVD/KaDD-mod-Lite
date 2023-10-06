@@ -17,7 +17,7 @@ requirements: [
 consumes: {
   power: 1.5
   liquids: [
-      thermal-acid/0.25
+      thermal-acid/0.2
   ]
   items: [
       item-kad/1
@@ -28,7 +28,6 @@ consumes: {
 
 outputItems: [
   hard-drive-alpha/2
-  coal/0.2
 ]
 
 outputLiquid: hydrogen/0.1
@@ -45,8 +44,11 @@ drawer: {
       type: DrawDefault
     }
     {
-      type: DrawArcSmelt
-      color: ff6abda5
+      type: DrawGlowRegion
+      glowIntensity: 1
+      rotateSpeed: 1
+      rotate: true
+      color: ff4300
     }
   ]
 }
