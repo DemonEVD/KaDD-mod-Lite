@@ -4,7 +4,7 @@ size: 2
 
 squareSprite: false
 
-liquidBoostIntensity: 5
+liquidBoostIntensity: 1.5
 rotateSpeed: 5
 tier: 6
 drillTime: 200
@@ -14,10 +14,10 @@ drawRim: true
 drawSpinSprite: false
 
 consumes: {
-power: 1.65
+power: 1
 liquid: {
 liquid: thermal-acid
-amount: 0.1
+amount: 0.05
 optional: true
 update: true
 booster: true
