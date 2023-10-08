@@ -1,5 +1,7 @@
 type: GenericCrafter
 
+squareSprite: false
+
 health: 400
 size: 3
 

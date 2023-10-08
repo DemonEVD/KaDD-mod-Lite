@@ -1,5 +1,7 @@
 type: GenericCrafter
 
+squareSprite: false
+
 health: 900
 size: 3
 liquidCapacity: 15

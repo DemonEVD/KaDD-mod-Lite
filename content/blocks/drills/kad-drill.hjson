@@ -2,21 +2,25 @@ type: Drill
 health: 200
 size: 2
 
+squareSprite: false
+
 liquidBoostIntensity: 5
 rotateSpeed: 5
 tier: 6
 drillTime: 200
-updateEffect: redgeneratespark
+updateEffect: "redgeneratespark"
 hasPower: true
 drawRim: true
 drawSpinSprite: false
+
 consumes: {
 power: 1.65
 liquid: {
-thermal-acid/0.05
-booster: true
+liquid: thermal-acid
+amount: 0.1
 optional: true
 update: true
+booster: true
 }
 }
 

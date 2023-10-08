@@ -1,4 +1,5 @@
 type: CoreBlock
+squareSprite: false
 health: 2000
 itemCapacity: 5000
 size: 4
