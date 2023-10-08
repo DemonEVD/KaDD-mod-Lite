@@ -1,8 +1,23 @@
 name: kadd
-displayName: KaDD mod
+displayName: "[red]KaDD mod[]"
 subtitle: Gamma-V0.1
 author: DemKa
-description: Just my first mod)))
+description: "
+I`m working on:
+
+- New planet [red](Not commpleted)[]
+- New units [red](Not commpleted)[]
+- New materials [red](Not commpleted)[]
+- A ton of new planet content [red](Not commpleted)[]
+
+[red]TODO:
+1. Conveyors etc
+2. A-B-G material system (now)
+3. Some difficult stuff
+4. Turrets
+5. Units
+6. Sectors + planet (~)
+"
 version: 0.1
 minGameVersion: 146
 dependencies: []
