@@ -29,3 +29,7 @@ Y-material/40
 ]
 
 category: production
+
+blockedItems: [
+    scrap, copper, lead, graphite, coal, titanium, thorium, silicon, plastanium, sand, metaglass, beryllium, tungsten, carbide
+]
