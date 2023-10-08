@@ -1,0 +1,27 @@
+type: Drill
+health: 200
+size: 2
+
+liquidBoostIntensity: 5
+rotateSpeed: 5
+tier: 6
+drillTime: 200
+updateEffect: redgeneratespark
+hasPower: true
+drawRim: true
+drawSpinSprite: false
+consumes: {
+power: 1.65
+liquid: {
+liquid: thermal-acid
+amount: 0.05
+booster: true
+optional: true
+update: true
+}
+}
+
+requirements: [
+Y-material/40
+]
+category: production

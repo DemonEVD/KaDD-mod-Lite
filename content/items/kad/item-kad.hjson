@@ -1,0 +1,10 @@
+color: FF0000
+cost: 1
+
+explosiveness: 20
+flammability: 0.3
+radioactivity: 0.1
+charge: 5
+
+frames: 4
+transitionFrames: 4
