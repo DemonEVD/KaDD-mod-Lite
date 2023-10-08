@@ -13,8 +13,7 @@ drawSpinSprite: false
 consumes: {
 power: 1.65
 liquid: {
-liquid: thermal-acid
-amount: 0.05
+thermal-acid/0.05
 booster: true
 optional: true
 update: true
@@ -24,4 +23,5 @@ update: true
 requirements: [
 Y-material/40
 ]
+
 category: production
