@@ -1,7 +1,7 @@
 type: GenericCrafter
 
 health: 900
-size: 2
+size: 3
 
 hasItems: true
 hasPower: true
@@ -19,7 +19,7 @@ consumes: {
       cryofluid/0.001
       slag/0.001
   ]
-} 
+}
 
 outputItems: [
   scrap/10
