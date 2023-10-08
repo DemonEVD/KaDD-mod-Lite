@@ -1,0 +1,42 @@
+mesh: {
+  type: NoiseMesh
+  planet: cezzos
+  seed: 511
+  divisions: 10
+  color1: FF0000
+  color2: 330000
+  colorScale: 1
+  radius: 1
+  octaves: 3.5
+  persistence: 1
+  scale: 1
+  mag: 1
+}
+sectorSize: 1.5
+generator: {
+
+}
+orbitSpacing: 12
+orbitRadius: 25
+minZoom: 1
+drawOrbit: true
+atmosphereRadIn: 0
+atmosphereRadOut: 0.2
+accessible: true
+updateLighting: true
+bloom: true
+visible: true
+atmosphereColor: f54245
+iconColor: f20f12
+hasAtmosphere: true
+allowSectorInvasion: true
+allowWaveSimulation: true
+clearSectorOnLose: true
+allowLaunchSchematics: true
+allowWaves: true
+defaultCore: core-tocus
+parent: sun
+alwaysUnlocked: true
+hiddenItems: [
+    scrap, copper, lead, graphite, coal, titanium, thorium, silicon, plastanium, sand, metaglass, beryllium, tungsten, carbide
+]

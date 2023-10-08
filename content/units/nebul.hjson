@@ -1,0 +1,52 @@
+type: hover
+name: Nebul
+description: -
+controller: BuilderAI
+alwaysUnlocked: true
+flying: true
+buildSpeed: 1
+itemCapacity: 45
+drawCell: true
+health: 500
+speed: 3
+mineTier: 3
+engineSize: 3
+engineOffset: 7
+rotateSpeed: 50
+
+
+weapons: [{
+    y: 6
+    x: 0
+    ejectEffect: shootBig
+    rotateSpeed: 2
+		shake: 1
+    rotate: false
+    alternate: false
+    mirror: false
+    reload: 24
+    recoil: 5
+    shootCone: 20
+    cooldownTime: 15
+    heatColor: F00000FF
+    shootSound: laser
+    continuous: true
+    bullet: {
+        type: LaserBulletType
+        damage: 4
+        width: 7
+        length: 80
+        drawSize: 64
+        lifetime: 20
+        shake: 1
+        largeHit: true
+        status: sapped
+        statusDuration: 500
+        colors: [
+            66000066
+            99000099
+            СС0000СС
+            FF0000FF
+        ]
+    }
+}]

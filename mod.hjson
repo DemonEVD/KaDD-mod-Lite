@@ -1,0 +1,9 @@
+name: kadd
+displayName: KaDD mod
+subtitle: Gamma-V0.1
+author: DemKa
+description: Just my first mod)))
+version: 0.1
+minGameVersion: 146
+dependencies: []
+hidden: false

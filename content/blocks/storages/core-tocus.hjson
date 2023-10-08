@@ -1,0 +1,19 @@
+type: CoreBlock
+health: 2000
+itemCapacity: 5000
+size: 4
+category: effect
+unitType: nebul
+unitCapModifier: 4
+thrusterLength: 15
+requirements: [
+  item-kad/150
+  hard-drive-alpha/25
+]
+research: {
+    root: true
+    name: cezzos
+    requiresUnlock: false
+    planet: cezzos
+}
+alwaysUnlocked: true
