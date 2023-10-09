@@ -1,0 +1,18 @@
+type: Floor
+
+speedMultiplier: 0.1
+
+damageTaken: 130
+
+drownTime: 10
+
+walkEffect: melting
+
+liquidDrop: thermal-acid
+cacheLayer: water
+variants: 0
+emitLight: true
+lightRadius: 40
+attributes: {
+water: 1.5
+}

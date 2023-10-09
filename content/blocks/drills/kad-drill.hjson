@@ -4,9 +4,9 @@ size: 2
 
 squareSprite: false
 
-liquidBoostIntensity: 1.5
+liquidBoostIntensity: 1.7
 rotateSpeed: 5
-tier: 6
+tier: 10
 drillTime: 200
 updateEffect: "redgeneratespark"
 hasPower: true
@@ -28,8 +28,11 @@ requirements: [
 Y-material/40
 ]
 
+warmupSpeed: 0.002
+
 category: production
 
-blockedItems: [
-    scrap, copper, lead, graphite, coal, titanium, thorium, silicon, plastanium, sand, metaglass, beryllium, tungsten, carbide
+blockesItem: [
+coal
+sand
 ]

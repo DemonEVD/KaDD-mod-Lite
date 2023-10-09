@@ -5,6 +5,7 @@ explosiveness: 20
 flammability: 0.3
 radioactivity: 0.1
 charge: 5
+hardness: 9
 
 frames: 4
 transitionFrames: 4

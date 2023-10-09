@@ -1,0 +1,8 @@
+type: OreBlock
+
+walkEffect: melting
+
+oreDefault: true
+oreScale: 22.45
+oreThreshold: 0.87
+itemDrop: item-kad
