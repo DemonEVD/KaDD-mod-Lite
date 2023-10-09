@@ -31,6 +31,8 @@ drawer: {
   ]
 }
 
+category: power
+
 research: rezonant-node
 
 researchCostMultiplier: 0.1
