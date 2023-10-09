@@ -1,25 +1,26 @@
 name: kadd
 displayName: "[red]KaDD mod[]"
 subtitle: Gamma-V0.1
-author: DemKa
+author: TeslaCoil
 description: "
+JSON mod
+
 I`m working on:
 
+- New materials
+- New electricity
 - New planet [red](Not commpleted)[]
 - New units [red](Not commpleted)[]
-- New materials [red](Not commpleted)[]
 - A ton of new planet content [red](Not commpleted)[]
 
 [red]TODO:
 1. Conveyors etc
-2. A-B-G material system (now)
-3. Ores, liquids (now)
-3. Some difficult stuff
-4. Turrets
-5. Units
-6. Sectors + planet (~)
+2. Some difficult stuff
+3. Turrets
+4. Units
+5. Sectors + planet (now)
 "
-version: 0.2.1
+version: 0.3
 minGameVersion: 146
 dependencies: []
 hidden: false
