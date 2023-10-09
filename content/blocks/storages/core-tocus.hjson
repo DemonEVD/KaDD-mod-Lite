@@ -16,8 +16,8 @@ requirements: [
 ]
 research: {
     root: true
-    name: cezzos
+    name: tsezzos
     requiresUnlock: false
-    planet: cezzos
+    planet: tsezzos
 }
 alwaysUnlocked: true
