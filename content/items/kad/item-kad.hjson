@@ -9,3 +9,7 @@ hardness: 9
 
 frames: 4
 transitionFrames: 4
+
+alwaysUnlocked: true
+
+research: core-tocus

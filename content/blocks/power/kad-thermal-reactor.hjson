@@ -1,0 +1,36 @@
+type: ThermalGenerator
+
+squareSprite: false
+
+health: 50
+outputLiquid: thermal-acid/0.3
+liquidCapacity: 100
+size: 2
+
+powerProduction: 0.5
+
+floating: true
+
+requirements: [
+  item-kad/5
+  Y-material/40
+  hard-drive-alpha/2
+
+]
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawGlowRegion
+      color: aa0000
+    }
+  ]
+}
+
+research: rezonant-node
+
+researchCostMultiplier: 0.1

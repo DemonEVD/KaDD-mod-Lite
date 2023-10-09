@@ -4,3 +4,5 @@ viscosity: 0.99
 heatCapacity: 0.1
 explosiveness: 3
 color: aa0000
+
+research: item-kad

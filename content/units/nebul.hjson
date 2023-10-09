@@ -8,17 +8,17 @@ buildSpeed: 1
 itemCapacity: 45
 drawCell: true
 health: 500
-speed: 3
-mineTier: 3
+speed: 2
+mineTier: 0
 engineSize: 3
 engineOffset: 7
-rotateSpeed: 50
+rotateSpeed: 5
 
 
 weapons: [{
     y: 6
     x: 0
-    ejectEffect: shootBig
+    ejectEffect: casing2
     rotateSpeed: 2
 		shake: 1
     rotate: false
@@ -27,26 +27,51 @@ weapons: [{
     reload: 24
     recoil: 5
     shootCone: 20
-    cooldownTime: 15
-    heatColor: F00000FF
-    shootSound: laser
-    continuous: true
+    cooldownTime: 30
+    shootSound: shootBig
+    continuous: false
     bullet: {
-        type: LaserBulletType
-        damage: 4
-        width: 7
-        length: 80
-        drawSize: 64
-        lifetime: 20
-        shake: 1
-        largeHit: true
-        status: sapped
-        statusDuration: 500
-        colors: [
-            66000066
-            99000099
-            СС0000СС
-            FF0000FF
-        ]
+    type: basicBulletType
+    shootEffect: shootBig2
+    hitEffect: {
+      type: ExplosionEffect
+      waveColor: ff2424
+      sparkColor: ff2424
+      smokes: 6
+      smokeSize: 3.7
+      smokeSizeBase: 1.6
+      smokeRad: 26
+      waveLife: 20
+      waveStroke: 2.1
+      waveRad: 25
+      waveRadBase: 2.0
+      sparkLen: 6
+      sparks: 5
     }
+    despawnEffect: {
+      type: ExplosionEffect
+      waveColor: ff2424
+      sparkColor: ff2424
+      smokes: 6
+      smokeSize: 3.7
+      smokeSizeBase: 1.6
+      smokeRad: 26
+      waveLife: 20
+      waveStroke: 2.1
+      waveRad: 25
+      waveRadBase: 2.0
+      sparkLen: 6
+      sparks: 5
+    }
+    lifetime: 35
+    damage: 40
+    speed: 6
+    status: blasted
+    statusDuration: 100
+    width: 12
+    height: 17
+    trailColor: ff0000
+    backColor: ff0000
+    frontColor: ff3434
+  }
 }]

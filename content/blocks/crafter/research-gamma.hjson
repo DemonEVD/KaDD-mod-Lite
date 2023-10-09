@@ -11,30 +11,31 @@ itemCapacity: 20
 liquidCapacity: 20
 
 requirements: [
-  item-kad/30
-  titanium/150
-  plastanium/50
+  Y-material/150
+  item-kad/150
+  hard-drive-beta/20
 ]
 
 consumes: {
-  power: 1.5
+  power: 1.6
   liquids: [
       thermal-acid/0.2
   ]
   items: [
-      item-kad/1
-      plastanium/2
-      copper/1
+      Y-material/50
+      hard-drive-beta/3
   ]
 }
 
 outputItems: [
-  hard-drive-alpha/2
+  hard-drive-gamma/2
 ]
-
-outputLiquid: hydrogen/0.1
 
 craftTime: 3600
 craftEffect: fire
 updateEffect: smeltsmoke
 category: crafting
+
+research: research-beta
+
+researchCostMultiplier: 0.18

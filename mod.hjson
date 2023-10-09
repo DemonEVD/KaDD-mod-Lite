@@ -13,12 +13,13 @@ I`m working on:
 [red]TODO:
 1. Conveyors etc
 2. A-B-G material system (now)
+3. Ores, liquids (now)
 3. Some difficult stuff
 4. Turrets
 5. Units
 6. Sectors + planet (~)
 "
-version: 0.2
+version: 0.2.1
 minGameVersion: 146
 dependencies: []
 hidden: false

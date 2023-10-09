@@ -36,3 +36,7 @@ blockesItem: [
 coal
 sand
 ]
+
+research: core-tocus
+
+researchCostMultiplier:0.12

@@ -2,7 +2,7 @@ mesh: {
   type: NoiseMesh
   planet: cezzos
   seed: 511
-  divisions: 10
+  divisions: 5
   color1: FF0000
   color2: 330000
   colorScale: 1
@@ -34,7 +34,7 @@ allowWaveSimulation: true
 clearSectorOnLose: true
 allowLaunchSchematics: true
 allowWaves: true
-defaultCore: core-tocus
+defaultCore: kadd-core-tocus
 parent: sun
 alwaysUnlocked: true
 hiddenItems: [

@@ -8,27 +8,25 @@ liquidCapacity: 15
 itemCapacity: 20
 
 requirements: [
-  metaglass/200
-  titanium/150
-  surge-alloy/50
+  item-kad/50
 ]
 
 consumes: {
-  power: 3
+  power: 0.2
   liquids: [
-      cryofluid/0.001
-      slag/0.001
+    thermal-acid/0.1
+  ]
+  items: [
+    item-kad/2
+    silicon/3
   ]
 }
 
 outputItems: [
-  scrap/10
-  item-kad/1
+  Y-material/1
 ]
 
-outputLiquid: hydrogen/0.03
-
-craftTime: 2500
+craftTime: 300
 craftEffect: fire
 updateEffect: smeltsmoke
 category: crafting
@@ -46,3 +44,7 @@ drawer: {
     }
   ]
 }
+
+research: kad-drill
+
+researchCostMultiplier: 0.14
