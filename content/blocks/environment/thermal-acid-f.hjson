@@ -14,5 +14,5 @@ emitLight: true
 lightRadius: 40
 heat: 1.5
 attributes: {
-heat: 0.25
+heat: 0.5
 }
