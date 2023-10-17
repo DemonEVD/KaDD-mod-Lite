@@ -25,7 +25,7 @@ booster: true
 }
 
 requirements: [
-Y-material/40
+item-kad/50
 ]
 
 warmupSpeed: 0.002
