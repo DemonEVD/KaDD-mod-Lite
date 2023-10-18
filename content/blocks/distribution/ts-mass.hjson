@@ -1,5 +1,5 @@
 type: MassDriver
-range: 4
+range: 50
 size: 1
 category: distribution
 health: 40
