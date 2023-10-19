@@ -1,0 +1,14 @@
+type: LiquidBridge
+health: 5
+range: 3
+speed: 0.04
+itemCapacity: 5
+
+requirements: [
+  item-kad/1
+]
+
+research: ts-mass
+category: distribution
+
+moveArrows: false

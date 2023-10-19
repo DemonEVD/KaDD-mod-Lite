@@ -1,14 +1,17 @@
 type: MassDriver
-range: 50
+range: 60
 size: 1
 category: distribution
 health: 40
-rotateSpeed: 100
-reload: 10
-bulletSpeed: 10
+rotateSpeed: 1000
+reload: 5
+bulletSpeed: 15
+
+hasPower: false
 
 requirements: [
-  item-kad/1
+  item-kad/5
 ]
 
+research: core-tocus
 shake: 1
