@@ -17,6 +17,7 @@ jobs:
     run: |
      mkdir copied_project
      cp -r * copied_project
+     find copied_project -type d -name '.git' -exec rm -rf '{}' +
      cd copied_project
      git init
      git remote add origin https://github.com/DemonEVD/KaDD-mod.git
