@@ -19,7 +19,7 @@ jobs:
      cp -r * copied_project
      cd copied_project
      git init
-     git remote add origin https://github.com/DemonEVD/KaDD-mod.git # Remove the comment here
+     git remote add origin https://github.com/DemonEVD/KaDD-mod.git
      git add .
      git commit -m "Копирование проекта"
      git push origin main
