@@ -2,22 +2,24 @@ name: Copy Project
 
 on:
  push:
- branches: [ master ]
+  branches: [ master ]
 
 jobs:
  copy_project:
- runs-on: ubuntu-latest
- steps:
-  - name: Checkout исходного репозитория
-  uses: actions/checkout@v3
-  with:
-   repository: DemonEVD/KaDD-mod-Lite
-   ref: main
-  - name: Перемещение файлов
-  run: |
-   cp -r * copied_project
-   cd copied_project
-   git remote set-url origin https://github.com/DemonEVD/KaDD-mod.git
-   git push origin main
-  - name: Удаление временной папки
-  run: rm -rf copied_project
+  runs-on: ubuntu-latest
+  steps:
+   - name: Checkout исходного репозитория
+    uses: actions/checkout@v3
+    with:
+     repository: DemonEVD/KaDD-mod-Lite
+     ref: main
+   - name: Перемещение файлов
+    run: |
+     mkdir copied_project
+     cp -r * copied_project
+     find copied_project -type d -name '.git' -exec rm -rf '{}' +
+     cd copied_project
+     git remote set-url origin https://github.com/DemonEVD/KaDD-mod.git
+     git push origin main
+   - name: Удаление временной папки
+    run: rm -rf copied_project
