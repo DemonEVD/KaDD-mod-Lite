@@ -1,0 +1,11 @@
+type: Conduit
+health: 400
+leaks: false
+liquidPressure: 40
+liquidCapacity: 40
+requirements: [
+  silicon/6
+  item-kad/1
+]
+research: core-tocus
+category: liquid
