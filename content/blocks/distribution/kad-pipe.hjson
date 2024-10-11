@@ -1,7 +1,7 @@
 type: Conduit
 health: 400
 leaks: false
-liquidPressure: 40
+liquidPressure: 10000
 liquidCapacity: 40
 requirements: [
   silicon/6
