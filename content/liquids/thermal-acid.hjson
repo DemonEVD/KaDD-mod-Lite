@@ -2,7 +2,7 @@ temperature: 0.70
 flammability: 2
 viscosity: 0.99
 heatCapacity: 0.1
-explosiveness: 3
+explosiveness: 0.1
 color: aa0000
 
 research: item-kad
